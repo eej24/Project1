@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 4096,
+    "id" : "https://eej24.github.io/Project1/images/pwllCwn/canvas/",
+    "label" : {
+      "none" : [ "pwllCwn" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eej24.github.io/Project1/images/pwllCwn/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eej24.github.io/Project1/images/pwllCwn/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 63
+            }, {
+              "width" : 256,
+              "height" : 126
+            }, {
+              "width" : 512,
+              "height" : 252
+            }, {
+              "width" : 1024,
+              "height" : 504
+            }, {
+              "width" : 2048,
+              "height" : 1007
+            }, {
+              "width" : 4096,
+              "height" : 2013
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4096,
+            "@id" : "https://eej24.github.io/Project1/images/pwllCwn",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2013
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4096,
+          "id" : "https://eej24.github.io/Project1/images/pwllCwn/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2013
+        },
+        "target" : "https://eej24.github.io/Project1/images/pwllCwn/canvas/"
+      } ]
+    } ],
+    "height" : 2013
+  }, {
+    "width" : 4096,
     "id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/canvas/",
     "label" : {
       "none" : [ "withTheCeremonialBargeOfTheIronmongersCompany" ]
