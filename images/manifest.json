@@ -1,0 +1,66 @@
+{
+  "id" : "https://eej24.github.io/Project1/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in eej24/Project1 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3849,
+    "id" : "https://eej24.github.io/Project1/images/theWave/canvas/",
+    "label" : {
+      "none" : [ "theWave" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eej24.github.io/Project1/images/theWave/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eej24.github.io/Project1/images/theWave/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 121,
+              "height" : 96
+            }, {
+              "width" : 241,
+              "height" : 192
+            }, {
+              "width" : 482,
+              "height" : 383
+            }, {
+              "width" : 963,
+              "height" : 766
+            }, {
+              "width" : 1925,
+              "height" : 1532
+            }, {
+              "width" : 3849,
+              "height" : 3063
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3849,
+            "@id" : "https://eej24.github.io/Project1/images/theWave",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3063
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3849,
+          "id" : "https://eej24.github.io/Project1/images/theWave/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3063
+        },
+        "target" : "https://eej24.github.io/Project1/images/theWave/canvas/"
+      } ]
+    } ],
+    "height" : 3063
+  } ]
+}
