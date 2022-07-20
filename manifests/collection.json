@@ -1,0 +1,13 @@
+{
+  "id" : "https://eej24.github.io/Project1/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in eej24/Project1 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json",
+    "label" : "The Sea within the Painting"
+  } ]
+}
