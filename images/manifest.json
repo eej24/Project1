@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4096,
+    "id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/canvas/",
+    "label" : {
+      "none" : [ "withTheCeremonialBargeOfTheIronmongersCompany" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 67
+            }, {
+              "width" : 256,
+              "height" : 133
+            }, {
+              "width" : 512,
+              "height" : 266
+            }, {
+              "width" : 1024,
+              "height" : 532
+            }, {
+              "width" : 2048,
+              "height" : 1064
+            }, {
+              "width" : 4096,
+              "height" : 2127
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4096,
+            "@id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2127
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4096,
+          "id" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2127
+        },
+        "target" : "https://eej24.github.io/Project1/images/withTheCeremonialBargeOfTheIronmongersCompany/canvas/"
+      } ]
+    } ],
+    "height" : 2127
+  }, {
     "width" : 3849,
     "id" : "https://eej24.github.io/Project1/images/theWave/canvas/",
     "label" : {
