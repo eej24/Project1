@@ -1,0 +1,184 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "The Sea within the Painting",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Several paintings from the Yale Center for British Art",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Yale Center for British Art, Yale University",
+  "sequences" : [ {
+    "@id" : "http://0baff603-8a45-4c55-9034-390f41821634",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3c1380c2-5701-4574-98c6-c47843bc0650",
+      "@type" : "sc:Canvas",
+      "label" : "painting, sea, wave",
+      "height" : 3063,
+      "width" : 3849,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://50d49c83-87b3-4e57-897c-9499dda601ef",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:2bc6eede-16cf-45d5-b9ab-d0481457340a/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:2bc6eede-16cf-45d5-b9ab-d0481457340a",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3063,
+          "width" : 3849
+        },
+        "on" : "http://3c1380c2-5701-4574-98c6-c47843bc0650"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5c6653b5-ae12-4bbd-ba2b-8f58d171efd5",
+      "@type" : "sc:Canvas",
+      "label" : "painting, sea, boat, cave, rock",
+      "height" : 5136,
+      "width" : 6642,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://758f2823-13e5-47c1-ab55-eaccee79657c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:2fbfa7b9-b06f-4725-ba25-a5c51b114f92/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:2fbfa7b9-b06f-4725-ba25-a5c51b114f92",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 5136,
+          "width" : 6642
+        },
+        "on" : "http://5c6653b5-ae12-4bbd-ba2b-8f58d171efd5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7ba0359c-701f-4547-8233-ed3ecce39926",
+      "@type" : "sc:Canvas",
+      "label" : "painting, sea, boat, bridge, town, people",
+      "height" : 3818,
+      "width" : 7352,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://190f2eb4-3fe2-48ac-88b6-c5cab301ee09",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:213ed701-22a6-4bb3-a767-a8756cf03f36/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:213ed701-22a6-4bb3-a767-a8756cf03f36",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3818,
+          "width" : 7352
+        },
+        "on" : "http://7ba0359c-701f-4547-8233-ed3ecce39926"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://331cfafe-1cf0-4f99-aaa2-3aec5abe6030",
+      "@type" : "sc:Canvas",
+      "label" : "painting, sea, boat, bridge, town, people",
+      "height" : 4795,
+      "width" : 5369,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8a5930c6-5a27-43a8-ba82-4a922faa79b5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:04b0b173-94d1-45d4-aa3e-bf15d68496ce/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:04b0b173-94d1-45d4-aa3e-bf15d68496ce",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4795,
+          "width" : 5369
+        },
+        "on" : "http://331cfafe-1cf0-4f99-aaa2-3aec5abe6030"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724",
+      "@type" : "sc:Canvas",
+      "label" : "painting, sea, wave, rock, cliff",
+      "height" : 3574,
+      "width" : 7272,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7ec09885-daa9-4147-92ed-3167a62646fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:ad718365-4fd3-4a18-9bc8-a1f186e51eb2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:ad718365-4fd3-4a18-9bc8-a1f186e51eb2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3574,
+          "width" : 7272
+        },
+        "on" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://3c1380c2-5701-4574-98c6-c47843bc0650" ]
+  } ]
+}
