@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 4096,
+    "id" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge/canvas/",
+    "label" : {
+      "none" : [ "archesOfWestminsterBridge" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 115
+            }, {
+              "width" : 256,
+              "height" : 229
+            }, {
+              "width" : 512,
+              "height" : 458
+            }, {
+              "width" : 1024,
+              "height" : 915
+            }, {
+              "width" : 2048,
+              "height" : 1829
+            }, {
+              "width" : 4096,
+              "height" : 3658
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4096,
+            "@id" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3658
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4096,
+          "id" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3658
+        },
+        "target" : "https://eej24.github.io/Project1/images/archesOfWestminsterBridge/canvas/"
+      } ]
+    } ],
+    "height" : 3658
+  }, {
+    "width" : 4096,
     "id" : "https://eej24.github.io/Project1/images/pwllCwn/canvas/",
     "label" : {
       "none" : [ "pwllCwn" ]
