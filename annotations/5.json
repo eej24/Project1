@@ -1,0 +1,166 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "wave",
+      "@type" : "oa:Tag",
+      "chars" : "wave"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "rock",
+      "@type" : "oa:Tag",
+      "chars" : "rock"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "sea",
+      "@type" : "oa:Tag",
+      "chars" : "sea"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Waves hitting the rocks",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Waves hitting the rocks</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/109697957",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T15:37:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658417851372",
+    "dcterms:modified" : "2022-07-21T15:37:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=628,2540,1141,336"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M795.04771,2588.80377c105.35488,-28.23058 253.97502,-49.25294 403.31536,-49.22782v0v0c149.34034,0.02512 279.44083,19.69119 403.31536,49.22782c123.87453,29.53663 172.02298,74.54475 167.05869,118.84648c-4.96429,44.30173 -63.04134,87.89706 -167.05869,118.84648c-104.01735,30.94942 -253.97502,49.25294 -403.31536,49.22782c-149.34034,-0.02512 -298.06336,-18.37887 -403.31536,-49.22782c-105.252,-30.84896 -167.03297,-74.19312 -167.05869,-118.84648c-0.02572,-44.65335 61.70381,-90.6159 167.05869,-118.84648z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_5b6e89df-f5fb-4388-b12f-19554c0a4df4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "sand",
+      "@type" : "oa:Tag",
+      "chars" : "sand"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Sand",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Sand</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/109697957",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T15:36:21",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658417781578",
+    "dcterms:modified" : "2022-07-21T15:36:21",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1548,2189,829,336"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1669.72159,2238.41162c76.54097,-28.23058 184.51442,-49.25294 293.0111,-49.22782v0v0c108.49668,0.02512 203.01549,19.69119 293.0111,49.22782c89.99561,29.53663 124.97576,74.54475 121.36917,118.84648c-3.60659,44.30173 -45.79992,87.89706 -121.36917,118.84648c-75.56925,30.94942 -184.51442,49.25294 -293.0111,49.22782c-108.49668,-0.02512 -216.54487,-18.37887 -293.0111,-49.22782c-76.46623,-30.84896 -121.35048,-74.19312 -121.36917,-118.84648c-0.01869,-44.65335 44.8282,-90.6159 121.36917,-118.84648z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_0ed6e09a-d57d-4856-8785-d6e99a85c119\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "cliff",
+      "@type" : "oa:Tag",
+      "chars" : "cliff"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "rock",
+      "@type" : "oa:Tag",
+      "chars" : "rock"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Cliffs along the sea",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Cliffs along the sea</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/109697957",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T15:36:02",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658417762839",
+    "dcterms:modified" : "2022-07-21T15:36:02",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3277,825,1437,654"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3487.29723,920.70924c132.65227,-54.89174 319.77979,-95.76775 507.81413,-95.71891v0v0c188.03434,0.04884 351.84379,38.28769 507.81413,95.71891c155.97034,57.43122 216.59404,144.94532 210.3435,231.0859c-6.25054,86.14058 -79.37531,170.90763 -210.3435,231.0859c-130.96819,60.17827 -319.77979,95.76775 -507.81413,95.71891c-188.03434,-0.04884 -375.2914,-35.73599 -507.81413,-95.71891c-132.52273,-59.98292 -210.31111,-144.26162 -210.3435,-231.0859c-0.03239,-86.82429 77.69123,-176.19417 210.3435,-231.0859z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_7db064af-0af1-4642-a9a9-f244df40f181\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "sea",
+      "@type" : "oa:Tag",
+      "chars" : "sea"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Sea",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Sea</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/109697957",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T15:35:26",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658417726024",
+    "dcterms:modified" : "2022-07-21T15:35:26",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=5620,2362,1382,938"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5821.94819,2499.4445c127.5972,-78.79484 307.59373,-137.47068 488.46251,-137.40058v0v0c180.86878,0.0701 338.43583,54.96041 488.46251,137.40058c150.02667,82.44017 208.34014,208.06308 202.3278,331.71435c-6.01234,123.65127 -76.3505,245.33091 -202.3278,331.71435c-125.97729,86.38344 -307.59373,137.47068 -488.46251,137.40058c-180.86878,-0.0701 -360.98992,-51.29755 -488.46251,-137.40058c-127.47259,-86.10303 -202.29664,-207.08164 -202.3278,-331.71435c-0.03115,-124.63271 74.73059,-252.91951 202.3278,-331.71435z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_69a0d8c4-3079-4b29-90fa-d2077ecb3242\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+    } ]
+  } ],
+  "@id" : "https://eej24.github.io/Project1/annotations/5.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
