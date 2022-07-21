@@ -3,6 +3,11 @@
   "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json",
   "@type" : "sc:Manifest",
   "label" : "The Sea within the Painting",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/109697957/259410f268ffd9409ab45d990c8163bf/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Several paintings from the Yale Center for British Art",
@@ -46,6 +51,11 @@
         },
         "on" : "http://3c1380c2-5701-4574-98c6-c47843bc0650"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://eej24.github.io/Project1/annotations/1.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://5c6653b5-ae12-4bbd-ba2b-8f58d171efd5",
@@ -75,6 +85,11 @@
           "width" : 6642
         },
         "on" : "http://5c6653b5-ae12-4bbd-ba2b-8f58d171efd5"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://eej24.github.io/Project1/annotations/2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
@@ -106,6 +121,11 @@
         },
         "on" : "http://7ba0359c-701f-4547-8233-ed3ecce39926"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://eej24.github.io/Project1/annotations/3.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://331cfafe-1cf0-4f99-aaa2-3aec5abe6030",
@@ -136,6 +156,11 @@
         },
         "on" : "http://331cfafe-1cf0-4f99-aaa2-3aec5abe6030"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://eej24.github.io/Project1/annotations/4.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724",
@@ -165,6 +190,11 @@
           "width" : 7272
         },
         "on" : "http://737e9e80-5550-47fb-ba6c-ce74d0969724"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://eej24.github.io/Project1/annotations/5.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     } ]
