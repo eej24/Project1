@@ -1,0 +1,47 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Waves",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Waves</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "sea",
+      "@type" : "oa:Tag",
+      "chars" : "sea"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "wave",
+      "@type" : "oa:Tag",
+      "chars" : "wave"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/109697957",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-07-21T15:17:41",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658416661291",
+    "dcterms:modified" : "2022-07-21T15:40:16",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://eej24.github.io/Project1/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=-2,-2,3851,3071"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M-2,-2h1925.5v0h1925.5v1535.5v1535.5h-1925.5h-1925.5v-1535.5z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_d3bbd457-71a3-4138-9d2d-32f161a41b65\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.02353\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3c1380c2-5701-4574-98c6-c47843bc0650"
+    } ]
+  } ],
+  "@id" : "https://eej24.github.io/Project1/annotations/1.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
