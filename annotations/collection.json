@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://eej24.github.io/Project1/annotations/1.json", "https://eej24.github.io/Project1/annotations/2.json", "https://eej24.github.io/Project1/annotations/3.json" ],
+  "otherContent" : [ "https://eej24.github.io/Project1/annotations/1.json", "https://eej24.github.io/Project1/annotations/2.json", "https://eej24.github.io/Project1/annotations/3.json", "https://eej24.github.io/Project1/annotations/4.json" ],
   "@id" : "https://eej24.github.io/Project1/annotations/collection.json",
   "label" : "All annotations loaded in eej24/Project1 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
